@@ -154,7 +154,6 @@ Page({
             });
           }
         }
-
         that.setData({
           goods: res.data.info,
           attribute: res.data.attribute,
