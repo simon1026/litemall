@@ -3,9 +3,12 @@ spring:
     active: db, core, admin, wx
   messages:
     encoding: UTF-8
+  devtools:
+    restart:
+      enabled: true
 
 server:
-  port: 8080
+  port: 8082
 
 logging:
   level:
@@ -17,3 +20,7 @@ logging:
     org.linlinjava.litemall.admin:  ERROR
     org.linlinjava.litemall.wx:  ERROR
     org.linlinjava.litemall:  ERROR
+  file: D:/logs/litemall.log
+  pattern:
+    file: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'

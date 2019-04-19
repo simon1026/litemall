@@ -36,12 +36,11 @@
     "pages/groupon/myGroupon/myGroupon",
     "pages/groupon/grouponDetail/grouponDetail",
     "pages/groupon/grouponList/grouponList",
-    "pages/coupon/coupon",
-    "pages/help/help"
+    "pages/coupon/coupon"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "litemall小程序商城",
+    "navigationBarTitleText": "凯瑞微商城",
     "enablePullDownRefresh": true,
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF",

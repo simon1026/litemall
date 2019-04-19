@@ -12,12 +12,12 @@ Page({
   data: {
     load_statue: true,
     shopInfo: {
-      name: 'litemall',
-      address: 'https://github.com/linlinjava/litemall',
-      latitude: 31.201900,
-      longitude: 121.587839,
-      linkPhone: '021-xxxx-xxxx',
-      qqNumber: '738696120'
+      name: '凯瑞微商城',
+      address: '惠州市',
+      latitude: 23.09,
+      longitude: 114.4,
+      linkPhone: '186****8043',
+      qqNumber: '22****62'
     },
   },
 

@@ -11,7 +11,7 @@
 
   <view class="about-item">
     <view class="item-left">
-      <label>项目地址: </label>
+      <label>地址: </label>
        <text>{{shopInfo.address}}</text> 
     </view>
 
@@ -32,7 +32,7 @@
 
   <view class="about-item">
     <view class="item-left">
-      <label>QQ交流群: </label>
+      <label>QQ: </label>
        <text>{{shopInfo.qqNumber}}</text> 
     </view>
     <view class="item-right">
@@ -49,8 +49,8 @@
 
   <view class="about-item">
     <view class="item-left">
-      <label>开源协议: </label>
-       <text>MIT</text> 
+      <label>技术支持: </label>
+       <text>广州远夏信息技术有限公司</text> 
     </view>
   </view>
 
