@@ -43,6 +43,9 @@ public class AdminGoodsController {
                        @RequestParam(defaultValue = "10") Integer limit,
                        @Sort @RequestParam(defaultValue = "add_time") String sort,
                        @Order @RequestParam(defaultValue = "desc") String order) {
+        logger.error("测试日志记录");
+        logger.info("测试日志记录");
+        logger.debug("测试日志记录");
         return adminGoodsService.list(goodsSn, name, page, limit, sort, order);
     }
 

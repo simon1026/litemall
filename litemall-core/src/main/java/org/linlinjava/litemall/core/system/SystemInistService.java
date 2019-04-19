@@ -39,7 +39,7 @@ class SystemInistService {
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_WX_INDEX_TOPIC, "4");
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_WX_INDEX_CATLOG_LIST, "4");
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_WX_INDEX_CATLOG_GOODS, "4");
-        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_WX_SHARE, "false");
+        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_WX_SHARE, "true");
         // 运费相关配置默认值
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_EXPRESS_FREIGHT_VALUE, "8");
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_EXPRESS_FREIGHT_MIN, "88");
@@ -48,10 +48,10 @@ class SystemInistService {
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_ORDER_UNCONFIRM, "7");
         DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_ORDER_COMMENT, "7");
         // 订单相关配置默认值
-        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_NAME, "litemall");
-        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_ADDRESS, "上海");
-        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_PHONE, "021-xxxx-xxxx");
-        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_QQ, "738696120");
+        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_NAME, "kr-mall");
+        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_ADDRESS, "惠州");
+        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_PHONE, "18620128043");
+        DEFAULT_CONFIGS.put(SystemConfig.LITEMALL_MALL_QQ, "229872662");
     }
 
     @Autowired
