@@ -83,7 +83,7 @@
     </view>
   </view>
 
-  <!-- <view class="a-section a-brand">
+  <view class="a-section a-brand">
     <view class="h">
       <navigator url="../brand/brand">
         <text class="txt">品牌制造商直供</text>
@@ -103,7 +103,7 @@
         </navigator>
       </view>
     </view>
-  </view> -->
+  </view>
   <view class="a-section a-new" wx:if="{{newGoods.length > 0}}">
     <view class="h">
       <view>
@@ -147,7 +147,7 @@
     </view>
   </view>
 
-  <!-- <view class="a-section a-topic" wx:if="topics.length > 0">
+  <view class="a-section a-topic" wx:if="topics.length > 0">
     <view class="h">
       <view>
         <navigator url="/pages/topic/topic">
@@ -169,8 +169,8 @@
         </view>
       </scroll-view>
     </view>
-  </view> -->
-  <!-- <view class="good-grid" wx:for="{{floorGoods}}" wx:key="id">
+  </view>
+  <view class="good-grid" wx:for="{{floorGoods}}" wx:key="id">
     <view class="h">
       <text>{{item.name}}</text>
     </view>
@@ -188,5 +188,5 @@
     <navigator url="/pages/category/category?id={{item.id}}" class="t">
       <view class="txt">{{'更多'+item.name+'好物 >'}}</view>
     </navigator>
-  </view> -->
+  </view>
 </view>

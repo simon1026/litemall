@@ -3,3 +3,9 @@
 /storage/
 /litemall.iml
 .idea
+/**/.classpath
+/**/.project
+/**/.settings
+/**/**.log
+/**/**.class
+/classes/**
